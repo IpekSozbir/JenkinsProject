@@ -43,7 +43,4 @@ public class JenkinsTest {
 	void Test10(){
 		assertTrue(true);
 	}
-
-
-
 }
