@@ -50,5 +50,6 @@ public class JenkinsTest {
 		String kelime = "ipek";
 		String kelime2  = "ipek";
 		Assert.assertEquals(kelime,kelime2);
+
 	}
 }
