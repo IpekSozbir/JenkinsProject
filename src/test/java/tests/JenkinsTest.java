@@ -1,12 +1,13 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
 public class JenkinsTest {
 
-	@Test
+	/*@Test
 	void Test1(){
 		assertTrue(true);
 	}
@@ -41,6 +42,14 @@ public class JenkinsTest {
 	@Test
 	void Test10(){
 		assertTrue(true);
+	}
+
+	 */
+	@Test
+	void Test11() {
+		String kelime = "ipek";
+		String kelime2  = "ipek";
+		Assert.assertEquals(kelime,kelime2);
 	}
 
 }
