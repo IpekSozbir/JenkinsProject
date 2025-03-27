@@ -51,5 +51,4 @@ public class JenkinsTest {
 		String kelime2  = "ipek";
 		Assert.assertEquals(kelime,kelime2);
 	}
-
 }
